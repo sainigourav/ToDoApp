@@ -7,8 +7,8 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
+      <Route path="/ToDoApp" element={<App />} />
+      <Route path="*" element={<Navigate to="/ToDoApp" replace />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>,
